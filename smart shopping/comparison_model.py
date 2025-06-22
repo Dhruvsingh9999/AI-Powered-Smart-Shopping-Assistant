@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDHdIhHV_dWFibpPua9uWnKvkPmhz3zTdY")
+genai.configure(api_key="your api-key")
 
 def compare_products(product1, product2):
     try:
