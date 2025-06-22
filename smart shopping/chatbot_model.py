@@ -7,7 +7,7 @@ import re
 logging.basicConfig(level=logging.DEBUG)
 
 # Configure Gemini API
-API_KEY = "AIzaSyDHdIhHV_dWFibpPua9uWnKvkPmhz3zTdY"
+API_KEY = "your api-key"
 genai.configure(api_key=API_KEY)
 
 # Define model
